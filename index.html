@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora IMC </title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora IMC</h1>
+        <div class="tabela">
+            <div class="rows">
+                <p class="left">Menor que 16,9</p>
+                <p class="right">Muito abaixo do peso</p>
+            </div>
+            <div class="rows">
+                <p class="left">17 a 18,4</p>
+                <p class="right">Abaixo do peso</p>
+            </div>
+            <div class="rows">
+                <p class="left">18,5 a 24,9</p>
+                <p class="right">Peso normal</p>
+            </div>
+            <div class="rows">
+                <p class="left">25 a 29,9</p>
+                <p class="right">Acima do peso</p>
+            </div>
+            <div class="rows">
+                <p class="left">30 a 34,9</p>
+                <p class="right">Obesidade grau I</p>
+            </div>
+            <div class="rows">
+                <p class="left">35 a 40</p>
+                <p class="right">Obesidade grau II</p>
+            </div>
+            <div class="rows">
+                <p class="left">Maior que 40</p>
+                <p class="right">Obesidade grau III</p>
+            </div>
+        </div>
+        <form action="/" id="formulario" autocomplete="off">
+            <label for="altura" id="perguntas">Digite sua altura (em metros)</label>
+            <input type="text" id="altura" required>
+            <label for="peso" id="perguntas">Digite seu peso (em kg)</label>
+            <input type="text" id="peso" required>
+            <input type="submit" class="submit">
+            <div id="resultado"></div>
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(154, 57, 219);
+}
+
+.aclonica-regular {
+    font-family: "Aclonica", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1,
+h2 {
+    color: white    ;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Aclonica", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+section {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(123, 51, 156);
+    box-shadow: 1rem 1rem 1rem 1rem #c0424225;
+}
+
+#perguntas{
+    font-family: "Aclonica", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+section h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.rows {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.rows p {
+    width: 11rem;
+}
+
+.submit{
+    cursor: pointer;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Aclonica", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p,
+label{
+   cursor: pointer;   
+} 
+
+.left {
+    margin-left: 4.5rem;
+    color:rgb(3, 3, 3);
+}
+
+.right {
+    margin-left: 3rem;
+    color:rgb(3, 3, 3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+form input {
+    width: 60%;
+    margin: 0.3rem;
+    outline: none;
+}
+
